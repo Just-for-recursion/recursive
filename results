@@ -1,0 +1,14 @@
+with return:
+
+>>> 
+{u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test2.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test6.html': 3, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test4.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test3.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test7.html': 4, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test5.html': 2, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test8.html': 5}
+
+
+
+
+without return:
+
+>>> 
+{u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test2.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test6.html': 3, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test4.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test3.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test7.html': 4, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test5.html': 2, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test8.html': 5}
+{u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test2.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test6.html': 3, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test4.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test3.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test7.html': 4, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test5.html': 2, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test9.html': 6, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test8.html': 5}
+{u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test2.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test6.html': 3, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test4.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test3.html': 1, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test7.html': 4, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test5.html': 2, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test9.html': 6, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test8.html': 5, u'http://csiflabs.cs.ucdavis.edu/~cs20/recursion_test/test10.html': 7}
