@@ -126,15 +126,16 @@ url_set = shorten
 
 def recursive_links(url_dict, url_set, max_level, level):
     if level >= max_level:
-        print(url_dict)      
+        print(url_dict)
+        return
     pair = read_url(url_set)
     dump = get_links(pair[1], url_set)
     for link in dump: url_dict[link] = level
+    level += 1
     for link in dump:
         recursive_links(url_dict, link, max_level, level)
-    level += 1
-    print (url_dict)
-      
+    
+       
     
     
     
