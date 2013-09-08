@@ -1,0 +1,29 @@
+
+def euclid(a,b):
+    if (a > b):
+        print("b has to be larger than a")
+        return 0
+
+    c = b % a
+
+    if (c == 0):
+        print("%d is the gcd --NOT" %a)
+        return 7
+
+    if (c == 1):
+        print ("%d is the gcd --IS" %c)
+        return 8
+
+    else:
+        b = c
+        euclid(b, a)
+
+
+print (euclid(167,543))
+
+
+
+RESULTS:
+
+1 is the gcd --IS
+None
