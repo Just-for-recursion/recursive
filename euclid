@@ -1,29 +1,50 @@
+from random import randint
+
+
+noco = 0
+co = 0
 
 def euclid(a,b):
     if (a > b):
-        print("b has to be larger than a")
-        return 0
+        d = a
+        a = b
+        b = d
+        #print("b has to be larger than a")
+        #return 0
 
     c = b % a
 
     if (c == 0):
-        print("%d is the gcd --NOT" %a)
-        return 7
+        #print("%d is the gcd --NOT" %a)
+        return a
 
     if (c == 1):
-        print ("%d is the gcd --IS" %c)
-        return 8
+        #print ("%d is the gcd --IS" %c)
+        return c
 
     else:
         b = c
-        euclid(b, a)
+        return euclid(b, a)
+    
 
 
-print (euclid(167,543))
+a = input('Enter first int: ')
+b = input('Enter second int: ')
+if (a != 0):
+    print(euclid(a,b))
 
 
+else:
+    for i in range(b):
+        j = randint(1,100000000)
+        k = randint(1,100000000)
+        if (euclid(j,k) == 7):
+            noco += 1
+        if (euclid(j,k) == 1):
+            co += 1
+        else:
+            noco += 1
 
-RESULTS:
-
-1 is the gcd --IS
-None
+    print(float(co)/b)
+    
+    
